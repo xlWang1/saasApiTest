@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="LoginApiTest">
+ <test name="login">
+     <groups>
+        <run>
+<!--            <define name="success">-->
+<!--                <include name="once"/>-->
+<!--                <include name="multiple"/>-->
+<!--            </define>-->
+<!--            <include name="success"/>-->
+<!--            <include name="failure"/>-->
+<!--            <include name="once"/>-->
+            <include name="multiple"/>
+        </run>
+     </groups>
+     <classes>
+         <class name="com.saasv2.apitest.testcase.Login.LoginTest"/>
+     </classes>
+ </test>
+</suite>
